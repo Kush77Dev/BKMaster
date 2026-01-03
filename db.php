@@ -1,4 +1,7 @@
 <?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 $host = "localhost"; 
 $user = "root";        
 $pass = "";            
@@ -10,5 +13,5 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-echo "Connected successfully!";
+// echo "Connected successfully!";
 ?>

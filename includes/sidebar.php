@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-     <!-- App favicon -->
-     <link rel="shortcut icon" href="../assets/images/favicon.ico">
-
-     <!-- Vendor css (Require in all Page) -->
-     <link href="../assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
-
-     <!-- Icons css (Require in all Page) -->
-     <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-
-     <!-- App css (Require in all Page) -->
-     <link href="../assets/css/app.min.css" rel="stylesheet" type="text/css" />
-
-     <!-- Theme Config js (Require in all Page) -->
-     <script src="../assets/js/config.js"></script>
-</head>
-<body>
-    <div class="main-nav">
+     <div class="main-nav">
                <!-- Sidebar Logo -->
                <div class="logo-box">
                     <a href="/Index.php" class="logo-dark">
@@ -73,7 +50,7 @@
                                              <a class="sub-nav-link" href="product-grid.html">Grid</a>
                                         </li>
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="product-details.html">Details</a>
+                                             <a class="sub-nav-link" href="/product/details-product.php">Details</a>
                                         </li>
                                         <li class="sub-nav-item">
                                              <a class="sub-nav-link" href="product-edit.html">Edit</a>
@@ -110,18 +87,17 @@
                          <li class="nav-item">
                               <a class="nav-link menu-arrow" href="#sidebarInventory" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarInventory">
                                    <span class="nav-icon">
-                                        <iconify-icon icon="solar:box-bold-duotone"></iconify-icon>
+                                        <iconify-icon icon="solar:album-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Inventory </span>
+                                   <span class="nav-text"> Banner </span>
                               </a>
                               <div class="collapse" id="sidebarInventory">
                                    <ul class="nav sub-navbar-nav">
-
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="inventory-warehouse.html">Warehouse</a>
+                                             <a class="sub-nav-link" href="/banner/list-banner.php">List</a>
                                         </li>
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="inventory-received-orders.html">Received Orders</a>
+                                             <a class="sub-nav-link" href="/banner/add-banner.php">Create</a>
                                         </li>
                                    </ul>
                               </div>
@@ -180,18 +156,18 @@
                                    <span class="nav-icon">
                                         <iconify-icon icon="solar:confetti-minimalistic-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Attributes </span>
+                                   <span class="nav-text"> Collections </span>
                               </a>
                               <div class="collapse" id="sidebarAttributes">
                                    <ul class="nav sub-navbar-nav">
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="attributes-list.html">List</a>
+                                             <a class="sub-nav-link" href="../collection/list-collection.php">List</a>
                                         </li>
                                         <li class="sub-nav-item">
                                              <a class="sub-nav-link" href="attributes-edit.html">Edit</a>
                                         </li>
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="attributes-add.html">Create</a>
+                                             <a class="sub-nav-link" href="../collection/add-collection.php">Create</a>
                                         </li>
                                    </ul>
                               </div>
@@ -809,5 +785,3 @@
           </div>
 
           
-</body>
-</html>
